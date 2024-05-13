@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin:  10px;
+    padding: 20px;
+  border: solid;
+}
+header h1{
+  color: blue; 
+}
+header {
+  text-align : center;
+   margin:  10px;
+    padding: 20px;
+  border: solid;
+}
+
+h1 {
+    margin: 0;
+}
+
+.experience p {
+    margin:px;
+}
+
+.objectif, .experience, .formation, .competences, .loisirs {
+  border-bottom: 2px solid orange; 
+  padding-bottom: 20px;
+  	
+}
+
+.objectif p, .experience p, .formation p, .competences ul, .loisirs ul {
+    margin: 0;
+}
+
+.experience ul, .competences ul, .loisirs ul {
+    padding: 0;
+}
+
+.experience li, .competences li, .loisirs li {
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.experience li{
+}
+.objectif h2, .experience h2, .formation h2, .competences h2, .loisirs h2 {
+    color : red;
+}
